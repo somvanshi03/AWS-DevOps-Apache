@@ -10,8 +10,6 @@ phases:
     commands:
       - echo Build started on 'date'
       - cp index.html /var/www/html/
-      - cp buildspec.yaml /var/www/html/
-      - cp appspec.yaml /var/www/html/
   post_build:
     commands:
       - echo Configuring NGINX
